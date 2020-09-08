@@ -1,4 +1,4 @@
-function myFunction()
+function whoAmI()
 {
-	location.replace("https://www.w3schools.com")
+	location.replace("whoami.html")
 }
