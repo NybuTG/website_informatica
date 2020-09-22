@@ -3,10 +3,11 @@
 .links {
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
-	padding-top: 250px;
+	padding-top: 200px;
 }
 
 .button {
 	background-color: #54d676;
 	color: white;
+	padding: 50px;
 }
