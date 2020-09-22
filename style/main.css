@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
-#inner {
-	width: 2000px;
-}
-
 .links {
 	font-family: 'Fjalla One', sans-serif;
-	float: left;
+	text-align: center;
 }
