@@ -24,10 +24,38 @@ h2 {
 }
 
 #homepage {
-	padding-top: 625px;
+	padding-top:  44%;
+    padding-left: 0.5%;
 }
 
-img {
-	position: absolute;
-	clip: rect(0px,500px,500px,0px);
+.truus { 
+  background: url(../img/truus.jpg) 0% 26% no-repeat; /* 50% 50% centers image in div */
+  width: 150px;
+  height: 150px;
+  background-size: 150px;
+
 }
+
+.bella  { 
+  background: url(../img/bella.jpg) 0% 26% no-repeat; /* 50% 50% centers image in div */
+  width: 150px;
+  height: 150px;
+  background-size: 150px;
+
+}
+
+
+.outer {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
