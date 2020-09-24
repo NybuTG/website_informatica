@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 .links {
 	text-align: center;
@@ -8,6 +10,20 @@
 
 h2 {
 	margin: 30px;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.backToHome {
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #54d676; /* Mint Green */
 }
 
 .button {
@@ -28,34 +44,27 @@ h2 {
     padding-left: 0.5%;
 }
 
-.truus { 
-  background: url(../img/truus.jpg) 0% 26% no-repeat; /* 50% 50% centers image in div */
-  width: 150px;
-  height: 150px;
-  background-size: 150px;
+.parent {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
 
+.truus { 
+	background: url(../img/truus.jpg) 0% 26% no-repeat; /* 50% 50% centers image in div */
+	float: left;
+	border: 2px solid black;
+	width: 150px;
+	height: 150px;
+	background-size: 150px;
 }
 
 .bella  { 
-  background: url(../img/bella.jpg) 0% 26% no-repeat; /* 50% 50% centers image in div */
-  width: 150px;
-  height: 150px;
-  background-size: 150px;
-
+	background: url(../img/bella.jpg) 0% 26% no-repeat; /* 50% 50% centers image in div */
+	float: right;
+	border: 2px solid black;
+	margin-left: 15px;
+	width: 150px;
+	height: 150px;
+	background-size: 150px;
 }
-
-
-.outer {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-}
-
-ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-	}
-	ul#horizontal-list li {
-		display: inline;
-	}
-
